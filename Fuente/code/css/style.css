@@ -1,0 +1,19 @@
+.form-group.required.control-label:before{
+    content: "*";
+    color: red;
+ }
+
+ .btn-clear {
+    background-color: transparent !important;
+    border-style: none !important;
+    cursor: pointer;
+  }
+  
+  .btn-clear:active,
+  .btn-clear:focus {
+    outline-style: none !important;
+    outline-color: transparent;
+  }
+
+ .bodycontainer { max-height: 450px; width: 100%; margin: 0; overflow-y: auto; }
+.table-scrollable { margin: 0; padding: 0; }
